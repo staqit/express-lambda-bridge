@@ -1,0 +1,31 @@
+{
+  "name": "express-lambda-bridge",
+  "version": "0.0.1",
+  "description": "AWS Lambda to Express.js bridge",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staqit/express-lambda-bridge.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "typescript",
+    "aws-lambda"
+  ],
+  "author": "Tiaan Louw <tiaanl@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/staqit/express-lambda-bridge/issues"
+  },
+  "homepage": "https://github.com/staqit/express-lambda-bridge#readme",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.17",
+    "@types/express": "^4.17.2",
+    "express": "^4.17.1",
+    "typescript": "^3.7.3"
+  }
+}
