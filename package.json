@@ -20,12 +20,18 @@
   },
   "homepage": "https://github.com/staqit/express-lambda-bridge#readme",
   "scripts": {
-    "build": "tsc -p ."
+    "build": "tsc",
+    "test": "mocha -r ts-node/register test/**/*.ts"
   },
   "devDependencies": {
-    "@types/node": "^12.12.17",
+    "@types/chai": "^4.2.7",
     "@types/express": "^4.17.2",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.17",
+    "chai": "^4.2.0",
     "express": "^4.17.1",
+    "mocha": "^6.2.2",
+    "ts-node": "^8.5.4",
     "typescript": "^3.7.3"
   }
 }
